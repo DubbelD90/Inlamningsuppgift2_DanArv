@@ -37,7 +37,7 @@
             </StackPanel>
         </Grid>
 
-        <Grid Grid.Column="1" Background="White" Margin="10">
+        <Grid Grid.Column="1" Background="White">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
@@ -45,7 +45,7 @@
             </Grid.RowDefinitions>
 
             <StackPanel Grid.Row="0">
-                <TextBlock x:Name="subject" Text="" FontSize="18" FontWeight="Bold" />
+                <TextBlock x:Name="subject" Text="" FontSize="18" FontWeight="Bold" Margin="10"/>
             </StackPanel>
 
             <Grid Grid.Row="1" Margin="10">

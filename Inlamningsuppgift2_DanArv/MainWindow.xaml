@@ -9,7 +9,7 @@
         xmlns:Models="clr-namespace:Inlamningsuppgift2_DanArv.Models"
         
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1200">
+        Title="MainWindow" Height="720" Width="1200" WindowStyle="SingleBorderWindow">
 
     <Window.Resources>
         <DataTemplate x:Name="MessagesViewTemplate" DataType="{x:Type Models:MessagesModel}">
@@ -87,7 +87,10 @@
             
         </Grid>
 
-         <ContentControl Grid.Column="2" Content="{Binding}"/>
+        <Grid Grid.Column="2" Background="AliceBlue"/>
+
+
+        <ContentControl Grid.Column="2" Content="{Binding}"/>
 
 
     </Grid>
