@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Inlamningsuppgift2_DanArv/1.0.0": {
+        "runtime": {
+          "Inlamningsuppgift2_DanArv.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Inlamningsuppgift2_DanArv/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

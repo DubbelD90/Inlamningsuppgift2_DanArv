@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Inlamningsuppgift2_DanArv.Views.ContactView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Inlamningsuppgift2_DanArv.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Background="AliceBlue">
+            <StackPanel>
+                    <Button x:Name="ContactButton1" Background="Transparent" Foreground="DodgerBlue" BorderThickness="1" BorderBrush="LightSkyBlue" FontFamily="Century Gothic" Width="300" Padding="10,5,0,5" HorizontalContentAlignment="Left">
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <TextBlock FontFamily="Segoe MDL2 ASSETS" Text="&#xE77B;" FontSize="25" />
+                            <TextBlock Text="Sister (#4 prositute)" Margin="10,0,0,0" FontSize="20"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="ContactButton2" Background="Transparent" Foreground="DodgerBlue" BorderThickness="1" BorderBrush="LightSkyBlue" FontFamily="Century Gothic" Width="300" Padding="10,5,0,5" HorizontalContentAlignment="Left">
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <TextBlock FontFamily="Segoe MDL2 ASSETS" Text="&#xE77B;" FontSize="25" />
+                        <TextBlock Text="Azamat Bagatov" Margin="10,0,0,0" FontSize="20"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="ContactButton3" Background="Transparent" Foreground="DodgerBlue" BorderThickness="1" BorderBrush="LightSkyBlue" FontFamily="Century Gothic" Width="300" Padding="10,5,0,5" HorizontalContentAlignment="Left">
+                        <StackPanel Orientation="Horizontal" Margin="10">
+                            <TextBlock FontFamily="Segoe MDL2 ASSETS" Text="&#xE77B;" FontSize="25" />
+                        <TextBlock Text="Sacha Baron Cohen" Margin="10,0,0,0" FontSize="20"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Column="1" Background="White">
+
+        </Grid>
+    </Grid>
+</UserControl>
