@@ -45,7 +45,7 @@
             </Grid.RowDefinitions>
 
             <StackPanel Grid.Row="0">
-                <TextBlock x:Name="subject" Text="" FontSize="18" FontWeight="Bold" Margin="10"/>
+                <TextBlock x:Name="subject" Text="" FontSize="18" FontWeight="Bold" Margin="10" Foreground="Blue"/>
             </StackPanel>
 
             <Grid Grid.Row="1" Margin="10">
@@ -55,22 +55,22 @@
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                    <TextBlock x:Name="from" Text=""/>
-                    <TextBlock x:Name="to" Text="" FontSize="10"/>
+                    <TextBlock x:Name="from" Text="" Foreground="DodgerBlue"/>
+                    <TextBlock x:Name="to" Text="" FontSize="10" Foreground="DodgerBlue" />
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right">
                     <StackPanel Orientation="Horizontal">
-                        <Button x:Name="replyButton" Content="Reply" Margin="5,0" Padding="5"/>
-                        <Button x:Name="replyAllButton" Content="Reply All" Margin="5,0" Padding="5"/>
-                        <Button x:Name="forwardButton" Content="Forward" Margin="5,0,0,0" Padding="5"/>
+                        <Button x:Name="replyButton" Content="Reply" Margin="5,0" Padding="5" Background="Transparent" Foreground="DodgerBlue" BorderThickness="1" BorderBrush="LightSkyBlue"/>
+                        <Button x:Name="replyAllButton" Content="Reply All" Margin="5,0" Padding="5" Background="Transparent" Foreground="DodgerBlue" BorderThickness="1" BorderBrush="LightSkyBlue"/>
+                        <Button x:Name="forwardButton" Content="Forward" Margin="5,0,0,0" Padding="5" Background="Transparent" Foreground="DodgerBlue" BorderThickness="1" BorderBrush="LightSkyBlue"/>
                     </StackPanel>
-                    <TextBlock x:Name="time" Text="" TextAlignment="Right" Margin="0,5,0,0"/>
+                    <TextBlock x:Name="time" Text="" TextAlignment="Right" Margin="0,5,0,0" Foreground="DodgerBlue"/>
                 </StackPanel>
 
             </Grid>
 
-            <TextBlock Grid.Row="2" x:Name="Body" TextWrapping="Wrap" Text="" Margin="10"/>
+            <TextBlock Grid.Row="2" x:Name="Body" TextWrapping="Wrap" Text="" Margin="10" Foreground="DodgerBlue"/>
 
         </Grid>
     </Grid>
